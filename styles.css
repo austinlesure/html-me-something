@@ -8,7 +8,10 @@ html {
 
 img {
     display: block;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
     width: 80%;
     border: 6px solid #454545;
     border-radius: 24px;
@@ -30,10 +33,14 @@ h1.title {
     text-align: center;
 }
 
+h2.news-post {
+    padding-top: 20px;
+}
+
 ul.top-menu {
     margin: none;
     text-align: center;
-    padding: none;
+    padding: 10px;
 }
 
 ul.top-menu li {
@@ -51,4 +58,29 @@ ul.top-menu li {
 ul.top-menu li a {
     font-variant: small-caps;
     color: black;
+}
+
+hr {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8em;
+}
+
+footer img {
+    display: inline-block;
+    width: inherit;
+    margin: 5px;
+}
+
+code {
+    color: lime;
+    font-weight: bolder;
+    font-size: 1.2em;
 }
